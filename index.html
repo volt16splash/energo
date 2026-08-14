@@ -1,0 +1,491 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Energo — Fuel, Gas & Diesel Delivery</title>
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+</style>
+</head>
+<body class="bg-[#c7cdc9] text-zinc-900 antialiased" style="font-family:'Inter',sans-serif">
+
+  <!-- Background watermark -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none select-none opacity-[0.04]">
+    <div class="absolute -top-10 -left-10 text-zinc-900 leading-none" style="font-family:'Archivo',sans-serif;font-size:18vw;font-weight:800">ENERGO<br>FUEL<br>GAS<br>DIESEL</div>
+  </div>
+
+  <!-- Top utility bar -->
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-5 pb-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+    <div class="flex items-center gap-3">
+      <img src="logo.jpg" alt="Energo" class="h-10 w-10 rounded-xl object-cover">
+<span class="text-base font-semibold tracking-tight" style="font-family:'Archivo',sans-serif">ENERGO</span>
+      </div>
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+    <div class="flex items-center gap-8 text-sm">
+      <div>
+        <p class="text-xs uppercase tracking-widest text-zinc-500">Email</p>
+        <p class="font-medium">lawalpaul358@gmail.com</p>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-widest text-zinc-500">Support</p>
+        <p class="font-medium">08169085787</p>
+      </div>
+    </div>
+    <button class="inline-flex items-center gap-2 rounded-full bg-zinc-950 hover:bg-zinc-800 text-lime-400 text-sm font-semibold px-5 py-2.5 transition-colors duration-200 cursor-pointer">
+      <i data-lucide="smartphone" class="h-4 w-4"></i> Get the App
+    </button>
+    </div>
+  </div>
+
+  <!-- ============ HERO CARD ============ -->
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="rounded-[2rem] bg-zinc-950 overflow-hidden shadow-2xl">
+
+      <!-- Hero nav -->
+      <nav class="flex items-center justify-between px-5 sm:px-8 py-4 border-b border-white/10">
+        <div class="flex items-center gap-2.5">
+          <img src="logo.jpg" alt="Energo" class="h-9 w-9 rounded-lg object-cover">
+          <span class="text-white font-semibold tracking-tight text-base" style="font-family:'Archivo',sans-serif">ENERGO</span>
+        </div>
+        <div class="hidden lg:flex items-center gap-6 text-sm text-zinc-400">
+          <a href="#" class="hover:text-white transition-colors duration-200">Fuel</a>
+          <a href="#" class="hover:text-white transition-colors duration-200">Gas</a>
+          <a href="#" class="hover:text-white transition-colors duration-200">Diesel</a>
+          <a href="#" class="hover:text-white transition-colors duration-200">Delivery Zones</a>
+          <a href="#" class="hover:text-white transition-colors duration-200">Track Order</a>
+          <a href="#" class="hover:text-white transition-colors duration-200">Services</a>
+        </div>
+        <div class="flex items-center gap-3">
+          <button class="hidden sm:flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors duration-200 cursor-pointer">
+            EN <i data-lucide="chevron-down" class="h-4 w-4"></i>
+          </button>
+          <button class="hidden sm:flex rounded-full bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white text-sm font-medium px-4 py-2 transition-colors duration-200 cursor-pointer">
+            Log in
+          </button>
+          <button class="h-9 px-4 rounded-full bg-lime-400 hover:bg-lime-300 flex items-center justify-center text-zinc-950 text-sm font-semibold transition-colors duration-200 cursor-pointer">
+            Download App
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero body -->
+      <div class="relative px-5 sm:px-8 pt-12 pb-10 text-center">
+        <div class="absolute inset-0 bg-gradient-to-b from-zinc-900 via-zinc-950 to-zinc-950"></div>
+        <div class="absolute inset-0 opacity-20" style="background:radial-gradient(ellipse at 50% 0%, rgba(163,230,53,0.35), transparent 60%)"></div>
+
+        <div class="relative">
+          <p class="text-sm uppercase tracking-[0.4em] text-lime-400 font-medium mb-3">Fuel Delivery App</p>
+          <h1 class="text-white tracking-tight leading-[0.9]" style="font-family:'Archivo',sans-serif">
+            <span class="block text-4xl sm:text-6xl lg:text-7xl font-extrabold">FUEL. GAS. DIESEL.</span>
+            <span class="block text-5xl sm:text-7xl lg:text-8xl font-extrabold text-lime-400">ON THE APP</span>
+          </h1>
+          <p class="mt-4 text-base text-zinc-400 max-w-xl mx-auto">
+            Order fuel, gas, and diesel delivery right from your phone. Live tanker tracking, instant booking, and doorstep delivery — in the Energo app.
+          </p>
+
+          <!-- Search bar -->
+          <div class="mt-8 max-w-2xl mx-auto">
+            <div class="flex items-stretch rounded-full bg-white p-1.5 shadow-xl">
+              <button class="hidden sm:flex items-center gap-2 px-5 text-sm font-medium text-zinc-700 border-r border-zinc-200 cursor-pointer hover:text-zinc-900 transition-colors duration-200">
+                All Fuels <i data-lucide="chevron-down" class="h-4 w-4 text-zinc-400"></i>
+              </button>
+              <input type="text" placeholder="Search fuel type, delivery zone or address…" class="flex-1 px-4 text-sm text-zinc-900 placeholder-zinc-400 bg-transparent focus:outline-none min-w-0">
+              <button class="h-10 w-10 sm:h-11 sm:w-11 rounded-full bg-zinc-950 hover:bg-zinc-800 flex items-center justify-center text-lime-400 transition-colors duration-200 cursor-pointer">
+                <i data-lucide="search" class="h-4 w-4"></i>
+              </button>
+            </div>
+            <p class="mt-3 text-xs text-zinc-500">Popular: <span class="text-zinc-300">Petrol 95 · Diesel Euro 5 · CNG · LPG · Airport Fuel</span></p>
+          </div>
+
+          <!-- App store badges -->
+          <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a href="#" class="group flex items-center gap-3 rounded-2xl bg-white px-5 py-3 hover:bg-lime-400 transition-colors duration-200 cursor-pointer">
+              <i data-lucide="apple" class="h-6 w-6 text-zinc-950 group-hover:text-zinc-950"></i>
+              <span class="text-left leading-tight">
+                <span class="block text-[10px] text-zinc-500 group-hover:text-zinc-700">Download on the</span>
+                <span class="block text-sm font-bold text-zinc-950">App Store</span>
+              </span>
+            </a>
+            <a href="#" class="group flex items-center gap-3 rounded-2xl bg-white px-5 py-3 hover:bg-lime-400 transition-colors duration-200 cursor-pointer">
+              <i data-lucide="play" class="h-6 w-6 text-zinc-950 group-hover:text-zinc-950"></i>
+              <span class="text-left leading-tight">
+                <span class="block text-[10px] text-zinc-500 group-hover:text-zinc-700">Get it on</span>
+                <span class="block text-sm font-bold text-zinc-950">Google Play</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category icons row -->
+      <div class="relative border-t border-white/10 px-5 sm:px-8 py-5">
+        <div class="flex flex-col lg:flex-row items-center gap-6">
+          <div class="grid grid-cols-4 sm:grid-cols-8 gap-3 flex-1 w-full">
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="fuel" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Petrol</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="droplets" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Diesel</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="flame" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Gas</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="wind" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">CNG</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="circle-dot" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Kerosene</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="truck" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Bulk Tanks</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="factory" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Industrial</span>
+            </a>
+            <a href="#" class="group flex flex-col items-center gap-2 cursor-pointer">
+              <div class="h-12 w-12 rounded-full border border-white/10 group-hover:border-lime-400/60 group-hover:bg-lime-400/10 flex items-center justify-center transition-all duration-200"><i data-lucide="map-pin" class="h-5 w-5 text-zinc-300"></i></div>
+              <span class="text-xs text-zinc-500 group-hover:text-zinc-300 transition-colors duration-200">Zones</span>
+            </a>
+          </div>
+          <a href="#" class="group flex items-center gap-4 rounded-2xl bg-lime-400 hover:bg-lime-300 px-5 py-3.5 transition-colors duration-200 cursor-pointer shrink-0">
+            <div>
+              <p class="text-zinc-950 font-bold text-xl tracking-tight leading-none" style="font-family:'Archivo',sans-serif">ORDER</p>
+              <p class="text-zinc-800 text-xs mt-1">Request delivery in the app</p>
+            </div>
+            <div class="h-9 w-9 rounded-full bg-zinc-950 flex items-center justify-center group-hover:rotate-45 transition-transform duration-300">
+              <i data-lucide="arrow-up-right" class="h-4 w-4 text-lime-400"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TAGLINE ============ -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-20 pb-6 text-center">
+    <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight" style="font-family:'Archivo',sans-serif">DELIVERED TO YOUR DOORSTEP —<br>QUICKLY & SAFE</h2>
+    <p class="mt-4 text-base text-zinc-600 max-w-2xl mx-auto">Energo bridges the gap between your energy needs and delivery — right from the app.</p>
+  </section>
+
+  <!-- ============ DELIVERY STATS ============ -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-10 pb-14 text-center">
+    <p class="text-sm uppercase tracking-[0.5em] text-zinc-500 mb-2">Results. Real impact from real deliveries</p>
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-5">
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-center">
+        <div class="mx-auto h-14 w-14 rounded-2xl bg-zinc-950 flex items-center justify-center mb-4">
+          <i data-lucide="truck" class="h-7 w-7 text-lime-400"></i>
+        </div>
+        <p class="text-4xl font-extrabold tracking-tight" style="font-family:'Archivo',sans-serif">250K+</p>
+        <p class="mt-2 text-sm text-zinc-500">Deliveries completed nationwide</p>
+      </div>
+      <div class="bg-zinc-950 rounded-2xl p-8 shadow-xl text-center">
+        <div class="mx-auto h-14 w-14 rounded-2xl bg-lime-400 flex items-center justify-center mb-4">
+          <i data-lucide="shield-check" class="h-7 w-7 text-zinc-950"></i>
+        </div>
+        <p class="text-4xl font-extrabold tracking-tight text-lime-400" style="font-family:'Archivo',sans-serif">99.8%</p>
+        <p class="mt-2 text-sm text-zinc-400">Industry-leading reliability & on-time rates</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-center">
+        <div class="mx-auto h-14 w-14 rounded-2xl bg-zinc-950 flex items-center justify-center mb-4">
+          <i data-lucide="map-pin" class="h-7 w-7 text-lime-400"></i>
+        </div>
+        <p class="text-4xl font-extrabold tracking-tight" style="font-family:'Archivo',sans-serif">36</p>
+        <p class="mt-2 text-sm text-zinc-500">Active across locations</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-16">
+    <div class="text-center">
+      <p class="text-sm uppercase tracking-[0.5em] text-zinc-500 mb-1">Simple</p>
+      <h2 class="text-4xl sm:text-6xl font-extrabold tracking-tight" style="font-family:'Archivo',sans-serif">START YOUR ORDER</h2>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-5">
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-center relative">
+        <div class="absolute top-4 right-4 text-5xl font-extrabold text-zinc-100" style="font-family:'Archivo',sans-serif">01</div>
+        <div class="mx-auto h-14 w-14 rounded-2xl bg-lime-400 flex items-center justify-center mb-5">
+          <i data-lucide="smartphone" class="h-7 w-7 text-zinc-950"></i>
+        </div>
+        <h3 class="text-lg font-bold tracking-tight" style="font-family:'Archivo',sans-serif">Open the App</h3>
+        <p class="mt-2 text-sm text-zinc-500">Download Energo, then pick your fuel type and delivery address.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-center relative">
+        <div class="absolute top-4 right-4 text-5xl font-extrabold text-zinc-100" style="font-family:'Archivo',sans-serif">02</div>
+        <div class="mx-auto h-14 w-14 rounded-2xl bg-lime-400 flex items-center justify-center mb-5">
+          <i data-lucide="package-check" class="h-7 w-7 text-zinc-950"></i>
+        </div>
+        <h3 class="text-lg font-bold tracking-tight" style="font-family:'Archivo',sans-serif">Confirm Your Order</h3>
+        <p class="mt-2 text-sm text-zinc-500">Confirm quantity and details — we handle the delivery.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm text-center relative">
+        <div class="absolute top-4 right-4 text-5xl font-extrabold text-zinc-100" style="font-family:'Archivo',sans-serif">03</div>
+        <div class="mx-auto h-14 w-14 rounded-2xl bg-lime-400 flex items-center justify-center mb-5">
+          <i data-lucide="truck" class="h-7 w-7 text-zinc-950"></i>
+        </div>
+        <h3 class="text-lg font-bold tracking-tight" style="font-family:'Archivo',sans-serif">Track Your Tanker</h3>
+        <p class="mt-2 text-sm text-zinc-500">Follow delivery live in the app until it reaches your door.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRACKING CTA ============ -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-20">
+    <div class="rounded-[2rem] bg-zinc-950 overflow-hidden shadow-2xl">
+      <div class="relative px-8 py-16 text-center">
+        <div class="absolute inset-0 opacity-20" style="background:radial-gradient(ellipse at 50% 0%, rgba(163,230,53,0.35), transparent 60%)"></div>
+        <div class="relative">
+          <p class="text-sm uppercase tracking-[0.4em] text-lime-400 font-medium mb-3">All in the Energo app</p>
+          <h2 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white" style="font-family:'Archivo',sans-serif">GET STARTED</h2>
+          <p class="mt-4 text-base text-zinc-400 max-w-xl mx-auto">Order, pay, and track your fuel tanker in real-time — all from your phone, from our depot to your doorstep.</p>
+          <div class="mt-8 max-w-xl mx-auto">
+            <div class="flex items-stretch rounded-full bg-white p-1.5 shadow-xl">
+              <input type="text" placeholder="Enter tracking number…" class="flex-1 px-5 text-sm text-zinc-900 placeholder-zinc-400 bg-transparent focus:outline-none min-w-0">
+              <button class="h-10 w-10 sm:h-11 sm:w-11 rounded-full bg-zinc-950 hover:bg-zinc-800 flex items-center justify-center text-lime-400 transition-colors duration-200 cursor-pointer">
+                <i data-lucide="search" class="h-4 w-4"></i>
+              </button>
+            </div>
+          </div>
+          <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a href="#" class="flex items-center gap-2 rounded-full bg-lime-400 hover:bg-lime-300 text-zinc-950 text-sm font-bold px-6 py-3 transition-colors duration-200 cursor-pointer">
+              <i data-lucide="smartphone" class="h-4 w-4"></i> Download the App
+            </a>
+            <a href="#" class="flex items-center gap-2 rounded-full bg-white/10 hover:bg-white/20 text-white text-sm font-semibold px-6 py-3 transition-colors duration-200 cursor-pointer">
+              <i data-lucide="apple" class="h-4 w-4"></i> App Store
+            </a>
+            <a href="#" class="flex items-center gap-2 rounded-full bg-white/10 hover:bg-white/20 text-white text-sm font-semibold px-6 py-3 transition-colors duration-200 cursor-pointer">
+              <i data-lucide="play" class="h-4 w-4"></i> Google Play
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-20">
+    <div class="flex items-end justify-between">
+      <div>
+        <p class="text-sm uppercase tracking-[0.5em] text-zinc-500 mb-1">Feeling</p>
+        <h2 class="text-4xl sm:text-6xl font-extrabold tracking-tight" style="font-family:'Archivo',sans-serif">THE TRUST</h2>
+      </div>
+    </div>
+
+    <div class="mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[minmax(180px,auto)]">
+      <!-- Large featured review -->
+      <div class="col-span-2 row-span-2 bg-zinc-950 rounded-2xl p-8 shadow-xl flex flex-col justify-between">
+        <div>
+          <div class="flex gap-1 text-lime-400">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="mt-5 text-lg text-zinc-300 leading-relaxed">Delivery is fast, safe, and always exactly when they promise. They removed the guesswork entirely.</p>
+        </div>
+        <div class="flex items-center gap-3 pt-6 mt-6 border-t border-white/10">
+          <div class="h-11 w-11 rounded-full bg-lime-400 text-zinc-950 flex items-center justify-center text-sm font-bold">MJ</div>
+          <div>
+            <p class="text-sm font-semibold text-white">Marcus Johnson</p>
+            <p class="text-xs text-zinc-400 flex items-center gap-1"><i data-lucide="badge-check" class="h-3.5 w-3.5 text-lime-400"></i> Innova Labs</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Short review 1 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex gap-1 text-amber-400">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="mt-4 text-sm text-zinc-600 leading-relaxed">Signing up took minutes, and the first delivery arrived the same week.</p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 mt-4 border-t border-zinc-100">
+          <div class="h-9 w-9 rounded-full bg-zinc-900 text-lime-400 flex items-center justify-center text-xs font-semibold">MP</div>
+          <div>
+            <p class="text-sm font-semibold">Maya Patel</p>
+            <p class="text-xs text-zinc-500 flex items-center gap-1"><i data-lucide="badge-check" class="h-3 w-3 text-emerald-500"></i> Operations Director</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Short review 2 -->
+      <div class="bg-zinc-100 rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex gap-1 text-amber-400">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4"></i>
+          </div>
+          <p class="mt-4 text-sm text-zinc-600 leading-relaxed">Free delivery on bulk fuel orders — saved us a fortune on logistics costs.</p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 mt-4 border-t border-zinc-200">
+          <div class="h-9 w-9 rounded-full bg-zinc-900 text-lime-400 flex items-center justify-center text-xs font-semibold">SC</div>
+          <div>
+            <p class="text-sm font-semibold">Sarah Chen</p>
+            <p class="text-xs text-zinc-500 flex items-center gap-1"><i data-lucide="badge-check" class="h-3 w-3 text-emerald-500"></i> TechFlow Solutions</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Medium review 3 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex gap-1 text-amber-400">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="mt-4 text-sm text-zinc-600 leading-relaxed">We order monthly — every shipment arrives on time, every single time. Reliable logistics.</p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 mt-4 border-t border-zinc-100">
+          <div class="h-9 w-9 rounded-full bg-zinc-900 text-lime-400 flex items-center justify-center text-xs font-semibold">RJ</div>
+          <div>
+            <p class="text-sm font-semibold">Ramin Jafari</p>
+            <p class="text-xs text-zinc-500 flex items-center gap-1"><i data-lucide="badge-check" class="h-3 w-3 text-emerald-500"></i> Fleet Manager</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Medium review 4 -->
+      <div class="bg-zinc-950 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+        <div>
+          <div class="flex gap-1 text-lime-400">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="mt-4 text-sm text-zinc-300 leading-relaxed">Tracking link was instant. Knew exactly where my fuel delivery was at every moment.</p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 mt-4 border-t border-white/10">
+          <div class="h-9 w-9 rounded-full bg-lime-400 text-zinc-950 flex items-center justify-center text-xs font-bold">PS</div>
+          <div>
+            <p class="text-sm font-semibold text-white">Pedram Salehi</p>
+            <p class="text-xs text-zinc-400 flex items-center gap-1"><i data-lucide="badge-check" class="h-3 w-3 text-lime-400"></i> Verified Customer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tall review 5 -->
+      <div class="row-span-2 bg-zinc-100 rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+        <div>
+          <div class="flex gap-1 text-amber-400">
+            <i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i><i data-lucide="star" class="h-4 w-4 fill-current"></i>
+          </div>
+          <p class="mt-4 text-base text-zinc-600 leading-relaxed">We've tried every fuel supplier in the market. Energo's delivery speed and tanker safety is unmatched. They treat your order like it's their own — careful, fast, and always correct.</p>
+        </div>
+        <div class="flex items-center gap-3 pt-5 mt-5 border-t border-zinc-200">
+          <div class="h-10 w-10 rounded-full bg-zinc-900 text-lime-400 flex items-center justify-center text-sm font-semibold">MC</div>
+          <div>
+            <p class="text-sm font-semibold">Marcus Chen</p>
+            <p class="text-xs text-zinc-500 flex items-center gap-1"><i data-lucide="badge-check" class="h-3 w-3 text-emerald-500"></i> Fuel Distributor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-24">
+    <div class="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-4">
+      <h2 class="text-5xl sm:text-7xl font-extrabold tracking-tight" style="font-family:'Archivo',sans-serif">Our Fleet</h2>
+      <a href="#" class="group inline-flex items-center gap-3 text-sm font-medium cursor-pointer">
+        View All Vehicles
+        <span class="h-10 w-10 rounded-full bg-zinc-950 flex items-center justify-center text-lime-400 group-hover:rotate-45 transition-transform duration-300"><i data-lucide="arrow-up-right" class="h-4 w-4"></i></span>
+      </a>
+    </div>
+    <div class="mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="group h-48 sm:h-64 rounded-2xl bg-gradient-to-br from-zinc-800 to-zinc-950 flex items-center justify-center cursor-pointer overflow-hidden">
+        <i data-lucide="fuel" class="h-16 w-16 text-zinc-600 group-hover:text-lime-400 group-hover:scale-125 transition-all duration-500"></i>
+      </div>
+      <div class="group h-48 sm:h-64 rounded-2xl bg-gradient-to-br from-lime-700 to-zinc-950 flex items-center justify-center cursor-pointer overflow-hidden lg:translate-y-6">
+        <i data-lucide="truck" class="h-16 w-16 text-lime-200/60 group-hover:text-white group-hover:scale-125 transition-all duration-500"></i>
+      </div>
+      <div class="group h-48 sm:h-64 rounded-2xl bg-gradient-to-br from-zinc-700 to-zinc-900 flex items-center justify-center cursor-pointer overflow-hidden">
+        <i data-lucide="warehouse" class="h-16 w-16 text-zinc-500 group-hover:text-lime-400 group-hover:scale-125 transition-all duration-500"></i>
+      </div>
+      <div class="group h-48 sm:h-64 rounded-2xl bg-gradient-to-br from-zinc-900 to-black flex items-center justify-center cursor-pointer overflow-hidden lg:translate-y-6">
+        <i data-lucide="flame" class="h-16 w-16 text-zinc-600 group-hover:text-lime-400 group-hover:scale-125 transition-all duration-500"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAMILY BANNER ============ -->
+  <div class="relative mt-24 -rotate-1">
+    <div class="bg-zinc-950 py-8 text-center px-4">
+      <p class="text-zinc-400 text-sm uppercase tracking-[0.4em]">We're more than just a <span class="text-white font-semibold">fuel supplier</span></p>
+      <p class="text-lime-400 text-4xl sm:text-6xl font-extrabold tracking-tight mt-2" style="font-family:'Archivo',sans-serif">WE'RE YOUR LOGISTICS PARTNER</p>
+    </div>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-20 pb-8">
+    <div class="rounded-[2rem] bg-zinc-950 p-8 sm:p-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div>
+          <div class="flex items-center gap-2.5">
+            <img src="logo.jpg" alt="Energo" class="h-10 w-10 rounded-xl object-cover">
+            <span class="text-white font-semibold tracking-tight text-lg" style="font-family:'Archivo',sans-serif">ENERGO</span>
+          </div>
+          <p class="mt-5 text-base text-zinc-400 leading-relaxed">The Energo app brings fuel, gas, and diesel delivery to your pocket. Order and track fuel tankers in real-time from anywhere.</p>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-zinc-500 font-medium">Delivery</p>
+          <ul class="mt-5 space-y-3 text-sm text-zinc-400">
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Track Your Order</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Shipping Rates</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Delivery Areas</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Express Shipping</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-zinc-500 font-medium">Energo</p>
+          <ul class="mt-5 space-y-3 text-sm text-zinc-400">
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">About Us</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Our Fleet</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Warehouse</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-zinc-500 font-medium">Support</p>
+          <ul class="mt-5 space-y-3 text-sm text-zinc-400">
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">FAQ</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Returns & Refunds</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-lime-400 transition-colors duration-200">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-12 flex flex-col items-center gap-3 text-center">
+        <a href="#" class="flex items-center justify-center gap-2 w-72 whitespace-nowrap rounded-xl bg-white hover:bg-lime-400 text-zinc-950 text-sm font-semibold px-4 py-3 transition-colors duration-200 cursor-pointer">
+          <i data-lucide="apple" class="h-4 w-4"></i> Download on the App Store
+        </a>
+        <a href="#" class="flex items-center justify-center gap-2 w-72 whitespace-nowrap rounded-xl bg-white/10 hover:bg-lime-400 hover:text-zinc-950 text-white text-sm font-semibold px-4 py-3 transition-colors duration-200 cursor-pointer">
+          <i data-lucide="play" class="h-4 w-4"></i> Get it on Google Play
+        </a>
+        <div class="mt-2 flex justify-center gap-2.5">
+          <a href="#" aria-label="Instagram" class="h-10 w-10 rounded-full bg-white/5 hover:bg-lime-400 hover:text-zinc-950 text-zinc-400 flex items-center justify-center transition-colors duration-200 cursor-pointer">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="h-10 w-10 rounded-full bg-white/5 hover:bg-lime-400 hover:text-zinc-950 text-zinc-400 flex items-center justify-center transition-colors duration-200 cursor-pointer">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-zinc-500">© 2026 Energo. All rights reserved.</p>
+        <a href="#" class="inline-flex items-center gap-2 text-xs text-zinc-400 hover:text-lime-400 transition-colors duration-200 cursor-pointer">
+          Back To Top <i data-lucide="arrow-up" class="h-3.5 w-3.5"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+  </script>
+
+</body></html>
